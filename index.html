@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>| Rahul Bashyal |</title>
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font-awsome js link -->
+    <script src="https://kit.fontawesome.com/364123d85f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header part starts -->
+    <div id="header" class="header">
+        <div class="container" id="home">
+            <!-- navigation bar -->
+            <nav>
+                <h1 class="h1">Rahul <span>Bashyal</span></h1>
+                <ul id="sidemenue">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenue()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenue()"></i>
+            </nav>
+            <!-- navigation bar ends -->
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hello World!! <br> I'm <span>Rahul</span>  From Nepal</h1>
+            </div>
+        </div>
+    </div>
+    <!-- header part ends -->
+
+    <!-- about part starts -->
+    <div id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img src="images/mewithjacket.png" alt="image of me with a jacket holding in hand">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">
+                        About Me
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, veniam. Non, similique iure molestiae, dolorum reprehenderit ratione ullam fugit suscipit doloremque exercitationem tempora asperiores eveniet id numquam deserunt voluptatibus nam rem eaque veritatis consequatur laboriosam at est quae. Repellat ratione beatae amet aliquid rem molestias iusto minima dignissimos explicabo inventore.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/Ux</span><br>Designing Websites/Apps</li>
+                            <li><span>Web Development</span><br>Web app Developments</li>
+                            <li><span>C programmer</span><br>fluency on C programming language</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>UI/UX Designing trainer</li>
+                            <li><span>2020 - 2022</span><br>Web app Developer</li>
+                            <li><span>2019 - 2020</span><br>C programmer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - 2025</span><br>Bachelor Degree in Crimson College of Technology Butwal, Rupandehi</li>
+                            <li><span>2018 - 2020</span><br>Post Graduation from Millennium College Tansen, Palpa</li>
+                            <li><span>2018</span><br>SEE from ST. Capitanio School Tansen, Palpa</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about ends -->
+    <!-- services -->
+    <div id="services" class="services">
+        <div class="container">
+        <h1 class="sub-title">
+            My Services
+        </h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni sapiente explicabo eligendi sit.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni sapiente explicabo eligendi sit.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni sapiente explicabo eligendi sit.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+    </div>
+<!-- sevices ends -->
+<!-- portfolio starts -->
+<div id="portfolio" class="portfolio">
+    <div class="container">
+        <h1 class="sub-title">
+            My Work
+        </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.png" alt="work image">
+                <div class="layer">
+                    <h3>Nepal Dental Home</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In alias maiores quas molestiae magni. Veritatis quasi quam explicabo dolor repudiandae.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.png" alt="work image">
+                <div class="layer">
+                    <h3>Travel Nepal</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In alias maiores quas molestiae magni. Veritatis quasi quam explicabo dolor repudiandae.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.png" alt="work image">
+                <div class="layer">
+                    <h3>Tin Dog</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In alias maiores quas molestiae magni. Veritatis quasi quam explicabo dolor repudiandae.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- portfolio ends -->
+
+<!-- contact strarts -->
+<div id="contact" class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">
+                    Contact-Me
+                </h1>
+                <p><i class="fas fa-paper-plane"></i>bashyalrahul90876@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>9840041325</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/rahul.bashyal.59" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fab fa-linkedin"></i></a>
+                </div>
+                <a href="#" class="btn btn2" download>Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+    <p> Copyright 	©  Kevin. Made with <i class="fa-solid fa-heart"></i> by  Rahul Bashyal </p>
+    </div>
+</div>
+
+
+<!-- this one is for navigation menue -->
+<script>
+    var sidemenue = document.getElementById("sidemenue");
+    function openmenue(){
+        sidemenue.style.right = "0";
+    }
+    function closemenue(){
+        sidemenue.style.right = "-200px";
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+<!-- this one is for skills section -->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        </script>
+
+
+
+<!-- this one is for tabel -->
+        <script>
+          const scriptURL = 'https://script.google.com/macros/s/AKfycby_3lX7PAb6j6LpZj8y5uEZMHX1fnlUr1Gl_hUWlWEgQnf-NEVYbmOXssqU-Ej7po-q/exec'
+          const form = document.forms['submit-to-google-sheet']
+          const msg = document.getElementById("msg")
+
+          form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+              .then(response =>{
+                msg.innerHTML = "Thankyou for Reaching out to me :)"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+              })
+              .catch(error => console.error('Error!', error.message))
+          })
+        </script>
+</body>
+</html>
